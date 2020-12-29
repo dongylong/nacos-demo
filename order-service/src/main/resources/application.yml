@@ -17,3 +17,8 @@ management:
 
 service-url:
   user-service: http://user-service
+
+
+user-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
