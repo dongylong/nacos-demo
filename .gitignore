@@ -1,0 +1,10 @@
+.idea
+*.iml
+
+/user-service/.idea
+/user-service/*.iml
+/user-service/target
+
+/order-service/.idea
+/order-service/*.iml
+/order-service/target
