@@ -14,3 +14,6 @@ management:
       exposure:
         include: "*"
       base-path: /server/manage
+
+service-url:
+  user-service: http://user-service
