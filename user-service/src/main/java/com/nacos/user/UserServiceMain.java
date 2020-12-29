@@ -9,6 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import java.lang.invoke.MethodHandles;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class UserServiceMain {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
